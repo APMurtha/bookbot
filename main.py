@@ -10,7 +10,7 @@ def main():
         char = letter["char"]
         count = letter["num"]
         print(f"The letter \"{char}\" character was found {count} times ")
-        print("--- End report ---")
+    print("--- End report ---")
 
 def get_word_count(file):
     words = file.split()
